@@ -61,7 +61,7 @@ function initializeServiceWorker() {
    *  Initialize the service worker set up in sw.js
    */
 
-  /*
+  
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
       navigator.serviceWorker.register('/sw.js').then(function(registration) {
@@ -73,7 +73,7 @@ function initializeServiceWorker() {
       });
     });
   }
-  */
+  
 }
 
 /**
